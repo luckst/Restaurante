@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="row">
+        <!--<div class="col-md-2">
+            &lt;!&ndash;Sidebar content&ndash;&gt;
+
+            Search: <input ng-model="query">
+            Sort by:
+            <select ng-model="orderProp">
+                <option value="name">Alphabetical</option>
+                <option value="age">Newest</option>
+            </select>
+
+        </div>-->
+        <div class="col-md-10">
+            <!--Body content-->
+
+            <ul>
+                <li ng-repeat="mesa in mesas" class="thumbnail">
+                    <p>Mesa Nro: {{mesa.numero}}</p>
+                    <p>Estado: {{mesa.estado}}</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
